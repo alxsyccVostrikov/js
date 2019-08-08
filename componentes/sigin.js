@@ -17,10 +17,25 @@ document.write("    <div class='form-group'>");
 //document.write("    <button type='submit'>Login</button>");
 }
 
+function CssSiginWithForgetPass(){
+  document.write("<style>"+
+    "body {font-family: Arial, Helvetica, sans-serif;}"+
+    "form {border: 3px solid #f1f1f1;}"+
+    ".cancelbtn {width: auto;padding: 10px 18px;background-color: #f44336;}"+
+    "input[type=text], input[type=password],input[type=email] {width: 97%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;box-sizing: border-box;}"+
+    "button {background-color: #4CAF50;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer;width: 97%;}"+
+    "button:hover {opacity: 0.8;}"+
+    ".container {padding: 16px;}"+
+    "img.avatar {width: 40%;border-radius: 50%;}"+
+    ".imgcontainer {text-align: center;margin: 24px 0 12px 0;}"+
+    "span.psw {float: right;padding-top: 16px;}"+
+    "@media screen and (max-width: 300px) {span.psw {display: block;float: none;}.cancelbtn {width: 9%;}}"+
+  "</style>");
+}
+
 
 function SiginWithForgetPass(){
-
-
+/*
 document.write("<style>body {font-family: Arial, Helvetica, sans-serif;}</style>");
 document.write("<style>form {border: 3px solid #f1f1f1;}</style>");
 document.write("<style>.cancelbtn {width: auto;padding: 10px 18px;background-color: #f44336;}</style>");
@@ -32,8 +47,8 @@ document.write("<style>img.avatar {width: 40%;border-radius: 50%;}</style>");
 document.write("<style>.imgcontainer {text-align: center;margin: 24px 0 12px 0;}</style>");
 document.write("<style>span.psw {float: right;padding-top: 16px;}</style>");
 document.write("<style@media screen and (max-width: 300px) {span.psw {display: block;float: none;}.cancelbtn {width: 9%;}}></style>");
-
-
+*/
+CssSiginWithForgetPass();
 
 
 
@@ -68,6 +83,27 @@ document.write("</div>");
 }
 
 
+function CssSiginWithSocialIntegration(){
+  document.write("<style>"+
+    "*{box-sizing: border-box;}"+
+    ".bottom-container {text-align: center;background-color: #666;border-radius: 0px 0px 4px 4px;}"+
+    ".col {float: left;width: 50%;margin: auto;padding: 0 50px;margin-top: 6px;}"+
+    ".container {position: relative;border-radius: 5px;background-color:#f2f2f2;padding: 20px 0 30px 0;}"+
+    ".fb {background-color: #3B5998;color: white;}"+
+    ".google {background-color: #dd4b39;color: white;}"+
+    ".hide-md-lg {display: none;}"+
+    ".twitter {background-color: #55ACEE;color: white;}"+
+    ".vl {position: absolute;left: 50%;transform: translate(-50%);border: 2px solid #ddd;height: 175px;}"+
+    ".vl-innertext {position: absolute;top: 50%;transform: translate(-50%, -50%);background-color: #f1f1f1;border: 1px solid #ccc;border-radius: 50%;padding: 8px 10px;"+
+    "body {font-family: Arial, Helvetica, sans-serif;}"+
+    "input,.btn {width: 100%;padding: 12px;border: none;border-radius: 4px;margin: 5px 0;opacity: 0.85;display: inline-block;font-size: 17px;line-height: 20px;text-decoration: none;"+
+    "input:hover,.btn:hover {opacity: 1;}"+
+    "input[type=submit] {background-color: #4CAF50;color: white;cursor: pointer;}"+
+    "input[type=submit]:hover {background-color: #45a049;}"+
+    +"</style>");
+
+}
+
 
 function SiginWithSocialIntegration(...args){
 document.write("<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>");
@@ -75,7 +111,7 @@ document.write("<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/l
 let arg=args.sort();
 
 
-document.write("<style>*{box-sizing: border-box;}</style>");
+/*document.write("<style>*{box-sizing: border-box;}</style>");
 document.write("<style>.bottom-container {text-align: center;background-color: #666;border-radius: 0px 0px 4px 4px;}</style>");
 document.write("<style>.col {float: left;width: 50%;margin: auto;padding: 0 50px;margin-top: 6px;}</style>");
 document.write("<style>.container {position: relative;border-radius: 5px;background-color:#f2f2f2;padding: 20px 0 30px 0;} </style>");
@@ -90,8 +126,8 @@ document.write("<style>input,.btn {width: 100%;padding: 12px;border: none;border
 document.write("<style>input:hover,.btn:hover {opacity: 1;}</style>");
 document.write("<style>input[type=submit] {background-color: #4CAF50;color: white;cursor: pointer;}</style>");
 document.write("<style>input[type=submit]:hover {background-color: #45a049;}</style>");
-
-
+*/
+CssSiginWithSocialIntegration();
 document.write("<div class='container'>");
 document.write("<div class='row'>");
 document.write("<div class='vl'>");
@@ -131,9 +167,8 @@ function setCssNatal(){
 //document.write("<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'");
 //document.write("<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>");
 
-  
-  
-  document.write("<style>@import url('https://fonts.googleapis.com/css?family=Numans');html,body{background-image: url('https://www.gnoticia.com.br/wp-content/uploads/2018/12/buch_natal18.png');</style");
+/*
+document.write("<style>@import url('https://fonts.googleapis.com/css?family=Numans');html,body{background-image: url('https://www.gnoticia.com.br/wp-content/uploads/2018/12/buch_natal18.png');</style");
 document.write("<style>uploads/2018/12/buch_natal18.png');background-size: cover;background-repeat: no-repeat;height: 100%;font-family: 'Numans', sans-serif;}</style>");
 document.write("<style>.container{height: 100%;align-content: center;}</style>");
 document.write("<style>.container{height: 100%;align-content: center;}</style>");
@@ -151,6 +186,27 @@ document.write("<style>.login_btn:hover{color: black;background-color: white;}</
 document.write("<style>.links{color: white;}</style>");
 document.write("<style>.links a{margin-left: 4px;}</style>");
 document.write("<style>a{color:blue}</style>");
+*/
+document.write("<style>"+
+  "@import url('https://fonts.googleapis.com/css?family=Numans');html,body{background-image: url('https://www.gnoticia.com.br/wp-content/uploads/2018/12/buch_natal18.png')"+
+  "uploads/2018/12/buch_natal18.png');background-size: cover;background-repeat: no-repeat;height: 100%;font-family: 'Numans', sans-serif;}"+
+  ".container{height: 100%;align-content: center;}"+
+  ".container{height: 100%;align-content: center;}"+
+  //document.write("<style>.card{height: 370px;margin-top: auto;margin-bottom: auto;width: 400px;background-color: rgba(0,0,0,0.5) !important;}</style>");
+  ".social_icon span{font-size: 60px;margin-left: 10px;color: #FFC312;}"+
+  ".social_icon span:hover{color: white;cursor: pointer;}"+
+  ".card-header h3{color: white;}"+
+  ".social_icon{position: absolute;right: 20px;top: -45px;}"+
+  ".input-group-prepend span{width: 50px;background-color: #FFC312;color: black;border:0 !important;}"+
+  "input:focus{outline: 0 0 0 0  !important;box-shadow: 0 0 0 0 !important;}"+
+  ".remember{color: white;}"+
+  ".remember input{width: 20px;height: 20px;margin-left: 15px;margin-right: 5px;}"+
+  ".login_btn{color: black;background-color: #FFC312;width: 100px;}"+
+  ".login_btn:hover{color: black;background-color: white;}"+
+  ".links{color: white;}"+
+  ".links a{margin-left: 4px;}"+
+  "a{color:blue}"+
+document.write("</style>");
 }
 
 
